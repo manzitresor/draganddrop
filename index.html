@@ -8,27 +8,38 @@
     <link rel="stylesheet" href="./app.css" >
 </head>
 <body>
-
-    <content>
+   <section>
+    <h1 class="logo-heading">Drag&Drop</h1>
+   </section>
+    <section id="project-input">
         <form>
-            <div>
-                <label>Title</label>
-                <input type="text"/>
+            <div class="form-control">
+                <label for="title">Title</label>
+                <input type="text" id="title" />
             </div>
-            <div>
-                <label>Description</label>
-                <input type="text"/>
+            <div class="form-control">
+                <label for="description">Description</label>
+                <textarea id="description" rows="3"></textarea>
             </div>
-            <div>
-                <label>People</label>
-                <input type="number"/>
+            <div class="form-control">
+                <label for="people">People</label>
+                <input type="number" id="people" step="1" min="0" max="10"/>
             </div>
-            <button></button>
+            <button>Add Project</button>
         </form>
-    </content>
-    <content>
+    </section>
+    <section id="single-project">
         
-    </content>
+    </section>
+    <section id="project-list">
+        <div class="projects">
+            <header>
+                <h2></h2>
+            </header>
+            <ul></ul>
+        </div>
+    </section>
+    <div id="app"></div>
     
 </body>
 </html>
