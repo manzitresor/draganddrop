@@ -84,11 +84,11 @@
   }
   
   #finished-projects {
-    border-color: #0044ff;
+    border-color: #2D9596;
   }
   
   #finished-projects header {
-    background: #0044ff;
+    background: #2D9596;
   }
   
   .projects h2 {
@@ -114,7 +114,7 @@
   }
   
   #finished-projects li h2 {
-    color: #0044ff;
+    color: #2D9596;
   }
   
   .projects li h3 {
